@@ -20,7 +20,8 @@
         <property name="hibernate.hbm2ddl.auto">update</property>
 
         <!-- Mention annotated entity classes -->
-        <mapping class="com.submission.mis.model.User"/>
+        <mapping class="com.submission.mis.model.Student"/>
+        <mapping class="com.submission.mis.model.Instructor"/>
         <mapping class="com.submission.mis.model.Assignment"/>
         <mapping class="com.submission.mis.model.Submission"/>
     </session-factory>
